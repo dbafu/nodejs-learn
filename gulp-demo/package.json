@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "gulp": "gulp",
+    "babel": "rm -rf build && babel src/script -d build/script",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cli": "^2.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
