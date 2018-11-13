@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "koa": "^2.6.2",
+    "node-fetch": "^2.3.0"
+  }
 }
